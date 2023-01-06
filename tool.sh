@@ -73,19 +73,18 @@ rm /root/LinuxPanel_EN-6.8.23.zip /root/panel/ -rf
 # menu
 function start_menu(){
     clear
-    purple " Chào mừng bạn đến với tool aapanel."
+    purple " Chào mừng bạn đến với tool aaPanel."
     yellow " ————————————————————————————————————————————————"
-    green " 1. Cài đặt aapanel bản gốc (cho centos)"
+    green " 1. Cài đặt aaanel bản gốc (cho CentOS)"
     green " 2. Block speedtest trên vps chạy VPN"
     yellow " ————————————————————————————————————————————————"
     green " 3. Hạ cấp xuống bản ổn định 6.8.23 (1 số chỗ tiếng Trung)"
     green " 4. Mở khoá chặn speedtest"
-    green " 5. Crack bản aapanel hiện tại (ưu tiên cài mới) "
+    green " 5. Crack bản aaPanel hiện tại (ưu tiên cài mới) "
     green " 6. Antiddos L4"
-    green " 7. Cài đặt aapanel bản Trung( cho centos)"
+    green " 7. Cài đặt aapanel bản Trung(cho CentOS)"
     yellow " ————————————————————————————————————————————————"
-    green " 8. Gỡ cài đặt bản aapanel hiện tại"
-    green " 9. Coming soon"
+    green " 8. Gỡ cài đặt bản aaPanel hiện tại"
     green " 0. Thoát giao diện tool"
 
     echo
@@ -114,9 +113,6 @@ function start_menu(){
         ;;
         8 )
            uninstall
-        ;;
-        9 )
-           
         ;;
         0 )
             exit 1
