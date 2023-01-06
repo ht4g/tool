@@ -76,7 +76,7 @@ function start_menu(){
     purple " Chào mừng bạn đến với tool aaPanel."
     yellow " ————————————————————————————————————————————————"
     green " 1. Cài đặt aaanel bản gốc (cho CentOS)"
-    green " 2. Block speedtest trên vps chạy VPN"
+    green " 2. Chặn speedtestspeedtest"
     yellow " ————————————————————————————————————————————————"
     green " 3. Hạ cấp xuống bản ổn định 6.8.23 (1 số chỗ tiếng Trung)"
     green " 4. Mở khoá chặn speedtest"
