@@ -3,7 +3,6 @@ clear
 echo "Đang chặn speedtest..."
 echo -e ""
 sleep 1
-sudo apt install iptables-persistent netfilter-persistent
 iptables -I INPUT -s www.fast.com -j DROP
 iptables -I INPUT -s fast.com -j DROP
 iptables -I INPUT -s 23.198.103.141 -j DROP
