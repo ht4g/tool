@@ -36,7 +36,6 @@ function unspeedtest(){
 iptables -F && clear && echo "Đã mở khoá speedtest !"
 cd /etc/iptables
 rm rules.v4 rules.v6
-reboot
 }
 
 
