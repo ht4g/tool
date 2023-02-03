@@ -1,4 +1,3 @@
-rm -rf runblockspeedtest.x
 clear
 echo "Đang chặn speedtest..."
 echo -e ""
