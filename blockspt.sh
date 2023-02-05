@@ -3,6 +3,7 @@ echo "Đang chặn speedtest..."
 echo -e ""
 sleep 1
 iptables -I INPUT -s www.fast.com -j DROP
+iptables -I INPUT -s speedcheck.org -j DROP
 iptables -I INPUT -s fast.com -j DROP
 iptables -I INPUT -s 23.198.103.141 -j DROP
 iptables -I INPUT -s 23.41.68.21 -j DROP
